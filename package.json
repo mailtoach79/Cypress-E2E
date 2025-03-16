@@ -15,6 +15,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:RegisterFlow": "npx cypress run --spec cypress/e2e/tests/registerTest.cy.js",
+    "test:AddToCart": "npx cypress run --spec cypress/e2e/tests/addToCartTest.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^14.2.0"
   }
 }
