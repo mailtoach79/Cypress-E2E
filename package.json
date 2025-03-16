@@ -1,0 +1,20 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "Cypress E2E Framework with Mochaawsome HTML reporter and CI/CD pipelines with github actions",
+  "homepage": "https://github.com/mailtoach79/Cypress-E2E#readme",
+  "bugs": {
+    "url": "https://github.com/mailtoach79/Cypress-E2E/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailtoach79/Cypress-E2E.git"
+  },
+  "license": "ISC",
+  "author": "Sankar Dakoju",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
