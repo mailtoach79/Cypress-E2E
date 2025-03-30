@@ -1,10 +1,6 @@
 pipeline{
     agent any
 
-    parameters{
-        
-    }
-
     options{
         ansiColor('xterm')
     }
